@@ -9,7 +9,7 @@ int main(int argc, char **argv[])
 	SDL_Surface     *surface;
 	SDL_Texture     *texture;
 
-	window = SDL_CreateWindow("hello world", SDL_WINDOWPOS_UNDEFINED,
+	window = SDL_CreateWindow("Mobile SDL Project", SDL_WINDOWPOS_UNDEFINED,
 		SDL_WINDOWPOS_UNDEFINED, 800, 600, 0);
 	if (window == NULL)
 		return 1;
@@ -18,7 +18,7 @@ int main(int argc, char **argv[])
 	if (renderer == NULL)
 		return 2;
 
-	surface = SDL_LoadBMP("player.bmp");
+	surface = SDL_LoadBMP("img/happy2.bmp");
 	if (surface == NULL)
 		return 3;
 
