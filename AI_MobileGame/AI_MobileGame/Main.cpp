@@ -1,6 +1,8 @@
 #include <SDL.h>
+#include <iostream>
+#define SDL_main main
 
-int main(int argc, char **argv)
+int main(int argc, char **argv[])
 {
 	SDL_Window      *window;
 	SDL_Renderer    *renderer;
